@@ -16,12 +16,7 @@ The script includes the following packages:
 ## Installation
 
 1. First, ensure that you are using an administrative shell
-2. run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process.
-
-```bash
-Set-ExecutionPolicy AllSigned
-```
-Or
+2. run Set-ExecutionPolicy Bypass -Scope Process.
 
 ```bash
 Set-ExecutionPolicy Bypass -Scope Process
@@ -36,7 +31,6 @@ Set-ExecutionPolicy Bypass -Scope Process
 ```bash
 .\build.ps1
 ```
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
